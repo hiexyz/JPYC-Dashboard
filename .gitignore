@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# secrets
+.env
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+venv/
+
+# streamlit
+.streamlit/cache/
+EOF
